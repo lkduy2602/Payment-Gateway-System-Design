@@ -2,6 +2,8 @@
 
 Chào mọi người! Hôm nay mình muốn chia sẻ về một thiết kế hệ thống cổng thanh toán trung gian với ngân hàng.
 
+![Sơ đồ thiết kế hệ thống](Payment Gateway System Design.jpg)
+
 Khi lướt GitHub, mình tình cờ tìm thấy một dự án chia sẻ cách lấy API ngân hàng: [MBBank API](https://github.com/CookieGMVN/MBBank). Từ đó, mình nảy ra ý tưởng thiết kế một cổng thanh toán trung gian tương tự như PayOS, SePay, MoMo và các nền tảng thanh toán khác.
 
 Dưới đây là bản thiết kế sơ bộ về core của hệ thống. Trên thực tế, khi triển khai, hệ thống có thể cần bổ sung thêm nhiều service khác để đảm bảo hiệu suất và tính mở rộng.
